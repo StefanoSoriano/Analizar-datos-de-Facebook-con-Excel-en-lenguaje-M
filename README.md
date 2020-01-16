@@ -66,7 +66,7 @@ in
 ```
 
 
-### Gráfico 1. Tablero de información (en desarrollo)
+### Gráfico 1. Tablero de información en Excel (en desarrollo)
 #### Conversación de Facebook analizada (con uno de mis mejores amigos)
 ###### Excel 
 <img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
