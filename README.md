@@ -5,6 +5,52 @@
 
 ###### Fuente: Elaboración propia con datos de Facebook almacenados en un archivo .json
 
+#### Fragmento de base de datos donde se almacenan las conversacones 
+#### Conversación en Facebook Messenger, por privacidad suprimí el 99% de los mensajes.
+##### Tipo de archivo JSON
+```json
+{
+  "participants": [
+    {
+      "name": "Saul LI Woon"
+    },
+    {
+      "name": "St\u00c3\u00a9phano Soriano Urb\u00c3\u00a1n"
+    }
+  ],
+  "messages": [
+    {
+      "sender_name": "Saul LI Woon",
+      "timestamp_ms": 1553395762635,
+      "content": "As\u00c3\u00ad es bro",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "St\u00c3\u00a9phano Soriano Urb\u00c3\u00a1n",
+      "timestamp_ms": 1553390894395,
+      "content": "¿Trabajando?",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "Saul LI Woon",
+      "timestamp_ms": 1553216547218,
+      "content": "Hola, muchas gracias bro ...",
+      "type": "Generic"
+    },
+    {
+      "sender_name": "St\u00c3\u00a9phano Soriano Urb\u00c3\u00a1n",
+      "timestamp_ms": 1553216420364,
+      "content": "Hola, espero est\u00c3\u00a9s bien",
+      "type": "Generic"
+    }
+  ],
+  "title": "Saul LI Woon",
+  "is_still_participant": true,
+  "thread_type": "Regular",
+  "thread_path": "inbox/SaulLIWoon_1CFCpzMfww"
+}
+```
+
 ### Primer consulta (lenguaje M)
 ```javascript
 let
