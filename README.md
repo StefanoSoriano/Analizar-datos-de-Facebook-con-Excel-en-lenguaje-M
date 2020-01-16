@@ -1,7 +1,7 @@
 # Analizar datos de Facebook con Excel desde un archivo [JSON](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
 
 ### Fragmento de base de datos donde se almacenan las conversaciones de Facebook. Por privacidad suprimí el 99% de los mensajes.
-###### Conversación propia (tipo de archivo JSON)
+###### Conversación propia (tipo de archivo JSON):
 ```json
 {
   "participants": [
@@ -45,7 +45,7 @@
 }
 ```
 ### Primer consulta 
-###### Lenguaje M
+###### Lenguaje M:
 ```javascript
 let
     Origen = Json.Document(File.Contents("F:\OneDrive\Proyecto\FacebookProject\Query\LectureJSON\message_1.json")),
@@ -66,7 +66,7 @@ in
 ```
 
 
-### Gráfico 1. Tablero de información en Excel (en desarrollo)
+### Gráfico 1. Tablero de información en Excel (en desarrollo):
 #### Conversación de Facebook analizada (con uno de mis mejores amigos)
 ###### Excel 
 <img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
