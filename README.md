@@ -1,13 +1,7 @@
-# Analizar datos de Facebook con Excel
-### Gráfico 1. Tablero de información (en desarrollo)
-#### Conversación de Facebook (con uno de mis mejores amigos) analizada en Excel
-<img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
+# Analizar datos de Facebook con Excel desde un archivo JSON
 
-###### Fuente: Elaboración propia con datos de Facebook almacenados en un archivo .json
-
-#### Fragmento de base de datos donde se almacenan las conversacones 
-#### Conversación en Facebook Messenger, por privacidad suprimí el 99% de los mensajes.
-##### Tipo de archivo JSON
+### Fragmento de base de datos donde se almacenan las conversacones de Facebook, por privacidad suprimí el 99% de los mensajes.
+###### Tipo de archivo JSON
 ```json
 {
   "participants": [
@@ -50,6 +44,12 @@
   "thread_path": "inbox/SaulLIWoon_1CFCpzMfww"
 }
 ```
+
+### Gráfico 1. Tablero de información (en desarrollo)
+#### Conversación de Facebook (con uno de mis mejores amigos) analizada en Excel
+<img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
+
+###### Fuente: Elaboración propia con datos de Facebook almacenados en un archivo .json
 
 ### Primer consulta (lenguaje M)
 ```javascript
