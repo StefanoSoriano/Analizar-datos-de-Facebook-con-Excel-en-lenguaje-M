@@ -46,7 +46,7 @@
 ```
 ### Primer consulta 
 ###### Lenguaje M:
-```javascript
+```js
 let
     Origen = Json.Document(File.Contents("F:\OneDrive\Proyecto\FacebookProject\Query\LectureJSON\message_1.json")),
     messages = Origen[messages],
@@ -63,6 +63,30 @@ let
     #"Tipo cambiado" = Table.TransformColumnTypes(#"Columnas con nombre cambiado1",{{"Fecha", Int64.Type}})
 in
     #"Tipo cambiado"
+```
+## Macro para guardar la base de datos de las conversaciones en formato CSV y para recodificar de "UTF-8" a "ISO-8859-1"
+###### Lenguaje Visual Basic para Aplicaciones (VBA)
+```vbnet
+Sub Guardar_csv_y_recodificar()
+'  Guardar_csv_y_recodificar Macro
+'  Guarda una matriz de datos de un mensaje de Facebook Messenger en formato CSV y codificada a ISO-8859-1.
+    ChDir "E:\"
+    ActiveWorkbook.SaveAs Filename:= _
+        "E:\messengerISO.csv" _
+        , FileFormat:=xlCSV, CreateBackup:=False   
+End Sub
+```
+### Segunda consulta 
+###### Lenguaje M:`
+
+```javascript
+let
+    Origen = Csv.Document(File.Contents("E:\messengerISO.csv"),[Delimiter=",", Columns=4, Encoding=65001, QuoteStyle=QuoteStyle.Csv]),
+    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+    #"Valor reemplazado" = Table.ReplaceValue(#"Encabezados promovidos","s�bado","sábado",Replacer.ReplaceText,{"Fecha"}),
+    #"Valor reemplazado1" = Table.ReplaceValue(#"Valor reemplazado","mi�rcoles","miércoles",Replacer.ReplaceText,{"Fecha"})
+in
+    #"Valor reemplazado1"
 ```
 
 
