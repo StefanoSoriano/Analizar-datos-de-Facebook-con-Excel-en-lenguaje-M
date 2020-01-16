@@ -1,5 +1,5 @@
 # Analizar datos de Facebook con Excel
-### Gráfico 1. Panel de información (en desarrollo)
+### Gráfico 1. Tablero de información (en desarrollo)
 #### Conversación de Facebook (con uno de mis mejores amigos) analizada en Excel
 <img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
 
