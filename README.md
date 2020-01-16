@@ -1,6 +1,6 @@
 # Analizar datos de Facebook con Excel desde un archivo [JSON](https://developer.mozilla.org/es/docs/Learn/JavaScript/Objects/JSON)
 
-### Fragmento de base de datos donde se almacenan las conversaciones de Facebook. Por privacidad suprimí el 99% de los mensajes.
+### Fragmento de base de datos NoSQL donde se almacenan las conversaciones de Facebook. Por privacidad suprimí el 99% de los mensajes.
 ###### Conversación propia (tipo de archivo JSON):
 ```json
 {
