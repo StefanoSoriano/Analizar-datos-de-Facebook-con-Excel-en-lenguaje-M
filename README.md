@@ -1,5 +1,5 @@
 # Analizar datos de Facebook con Excel
-Primer consulta
+Primer consulta (lenguaje M)
 
 ```javascript
 let
