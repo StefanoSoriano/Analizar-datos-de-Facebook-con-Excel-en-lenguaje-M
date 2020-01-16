@@ -1,12 +1,11 @@
 # Analizar datos de Facebook con Excel
 
-Primer consulta (lenguaje M)
-
 ## Conversación de Facebook (con uno de mis mejores amigos) analizada en Excel
 <img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
 
 ###### Fuente: Elaboración propia con datos de Facebook almacenados en un archivo .json
 
+### Primer consulta (lenguaje M)
 
 ```javascript
 let
