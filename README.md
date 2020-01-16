@@ -67,7 +67,7 @@ in
 
 
 ### Gráfico 1. Tablero de información en Excel (en desarrollo)
-###### Conversación de Facebook analizada (con uno de mis mejores amigos):
+###### Conversación de Facebook (propia) analizada:
 <img src="https://github.com/StefanoSoriano/Analizar-datos-de-Facebook-con-Excel-en-lenguaje-M/blob/master/Facebook%20conversations.png?raw=true"/>
 
 ###### Fuente: Elaboración propia con datos de Facebook almacenados en un archivo .json
