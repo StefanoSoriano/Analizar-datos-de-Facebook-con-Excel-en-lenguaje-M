@@ -64,12 +64,12 @@ let
 in
     #"Tipo cambiado"
 ```
-## Macro para guardar la base de datos de las conversaciones en formato CSV y para recodificarla de "UTF-8" a "ISO-8859-1"
+## Macro para guardar la base de datos de las conversaciones en formato CSV dentro del directorio "E:\" y para recodificarla de "UTF-8" a "ISO-8859-1"
 ###### Lenguaje Visual Basic para Aplicaciones (VBA)
 ```vbnet
 Sub Guardar_csv_y_recodificar()
 '  Guardar_csv_y_recodificar Macro
-'  Guarda una matriz de datos de un mensaje de Facebook Messenger en formato CSV y codificada a ISO-8859-1.
+'  Guarda una matriz de datos de un mensaje de Facebook Messenger en formato CSV y recodificación a ISO-8859-1.
     ChDir "E:\"
     ActiveWorkbook.SaveAs Filename:= _
         "E:\messengerISO.csv" _
