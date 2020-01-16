@@ -6,7 +6,6 @@
 ###### Fuente: Elaboración propia con datos de Facebook almacenados en un archivo .json
 
 ### Primer consulta (lenguaje M)
-
 ```javascript
 let
     Origen = Json.Document(File.Contents("F:\OneDrive\Proyecto\FacebookProject\Query\LectureJSON\message_1.json")),
