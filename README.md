@@ -64,7 +64,7 @@ let
 in
     #"Tipo cambiado"
 ```
-## Macro para guardar la base de datos de las conversaciones en formato CSV y para recodificar de "UTF-8" a "ISO-8859-1"
+## Macro para guardar la base de datos de las conversaciones en formato CSV y para recodificarla de "UTF-8" a "ISO-8859-1"
 ###### Lenguaje Visual Basic para Aplicaciones (VBA)
 ```vbnet
 Sub Guardar_csv_y_recodificar()
