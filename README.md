@@ -6,7 +6,7 @@
 {
   "participants": [
     {
-      "name": "Saul LI Woon"
+      "name": "Woon"
     },
     {
       "name": "St\u00c3\u00a9phano Soriano Urb\u00c3\u00a1n"
@@ -14,9 +14,9 @@
   ],
   "messages": [
     {
-      "sender_name": "Saul LI Woon",
+      "sender_name": "Woon",
       "timestamp_ms": 1553395762635,
-      "content": "As\u00c3\u00ad es bro",
+      "content": "As\u00c3\u00ad es amigo",
       "type": "Generic"
     },
     {
@@ -26,9 +26,9 @@
       "type": "Generic"
     },
     {
-      "sender_name": "Saul LI Woon",
+      "sender_name": "Woon",
       "timestamp_ms": 1553216547218,
-      "content": "Hola, muchas gracias bro ...",
+      "content": "Hola, muchas gracias ...",
       "type": "Generic"
     },
     {
@@ -38,10 +38,10 @@
       "type": "Generic"
     }
   ],
-  "title": "Saul LI Woon",
+  "title": "Woon",
   "is_still_participant": true,
   "thread_type": "Regular",
-  "thread_path": "inbox/SaulLIWoon_1CFCpzMfww"
+  "thread_path": "inbox/Woon_1CFCpzMfww"
 }
 ```
 ### Primer consulta 
